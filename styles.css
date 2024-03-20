@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  float: left;
+}
+.nav .btn {
+  float: right;
+}
+
+.iiiii {
+  background-color: rgba(3, 96, 87, 0.9);
+}
+
+.sec-formation .formation .vert-formation {
+  background-color: rgba(3, 96, 87, 0.9);
+}
+.nos-cours .cours .case-cours {
+  width: 21%;
+  text-align: center;
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .case-cours {
+    display: block;
+    min-width: 40%;
+    margin: 4px;
+  }
+  .case-cours img {
+    width: 100%;
+  }
+}
